@@ -29,24 +29,24 @@ scrollbar slider{
 }
 
 #input image {
-  color: #ea999c; /* Accent */
+  color: #ea999c;
   -gtk-icon-effect: none;
 }
 #input {
-  background-color: #414559; /* Surface0 */
-  color: #c6d0f5;        /* typed text */
+  background-color: #414559;
+  color: #c6d0f5;
   caret-color: #ea999c;
-  border: 1px solid #51576d; /* Surface1 */
+  border: 1px solid #51576d;
   padding: 8px 12px;
   margin: 10px;
   border-radius: 35px;
   outline: 1px solid #626880;
 }
 #input:focus {
-  border-color: #ea999c; /* Accent */
+  border-color: #ea999c;
 }
 #input placeholder {
-  color: #303446; /* Overlay0 */
+  color: #303446;
 }
 #entry {
   background-color: #303446;
@@ -61,13 +61,11 @@ scrollbar slider{
   color: #ea999c;
 }
 #entry:hover {
-  background-color: #51576d; /* Surface1 */
+  background-color: #51576d;
 }
 #text {
-  color: #c6d0f5 ; /* Text */
+  color: #c6d0f5 ;
 }
 #text:selected {
-  color: #ea999c; /* Accent */
+  color: #ea999c;
 }
-
-

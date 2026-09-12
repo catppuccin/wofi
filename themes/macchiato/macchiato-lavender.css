@@ -29,24 +29,24 @@ scrollbar slider{
 }
 
 #input image {
-  color: #b7bdf8; /* Accent */
+  color: #b7bdf8;
   -gtk-icon-effect: none;
 }
 #input {
-  background-color: #363a4f; /* Surface0 */
-  color: #cad3f5;        /* typed text */
+  background-color: #363a4f;
+  color: #cad3f5;
   caret-color: #b7bdf8;
-  border: 1px solid #494d64; /* Surface1 */
+  border: 1px solid #494d64;
   padding: 8px 12px;
   margin: 10px;
   border-radius: 35px;
   outline: 1px solid #5b6078;
 }
 #input:focus {
-  border-color: #b7bdf8; /* Accent */
+  border-color: #b7bdf8;
 }
 #input placeholder {
-  color: #24273a; /* Overlay0 */
+  color: #24273a;
 }
 #entry {
   background-color: #24273a;
@@ -61,13 +61,11 @@ scrollbar slider{
   color: #b7bdf8;
 }
 #entry:hover {
-  background-color: #494d64; /* Surface1 */
+  background-color: #494d64;
 }
 #text {
-  color: #cad3f5 ; /* Text */
+  color: #cad3f5 ;
 }
 #text:selected {
-  color: #b7bdf8; /* Accent */
+  color: #b7bdf8;
 }
-
-

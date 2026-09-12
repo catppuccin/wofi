@@ -1,13 +1,21 @@
 /* Catppuccin Mocha - Wofi */
+
 * {
   font-family: "JetBrainsMono Nerd Font", monospace;
   font-size: 18px;
 }
-window {
-  background-color: #1e1e2e; /* Base */
-  border: 2px solid #a6e3a1; /* Accent */
+#scroll {
+  background-color: #1e1e2e;
+  margin: 0 8px 8px 8px;
 }
-
+#outer-box {
+  background-color: #1e1e2e;
+  padding: 10px;
+  border: 2px solid #a6e3a1;
+}
+#main {
+  background-color: #1e1e2e;
+}
 scrollbar,
 scrollbar trough,
 undershoot.top,
@@ -19,37 +27,33 @@ undershoot.bottom {
 scrollbar slider{
   background-color: #a6e3a1;
 }
-
-#input image {
-  color: #a6e3a1; /* Accent */
-  -gtk-icon-effect: none;
-}
-#input {
-  background-color: #313244; /* Surface0 */
-  color: #cdd6f4; /* Text */
-  border: 1px solid #45475a; /* Surface1 */
-  padding: 8px 12px;
-  margin: 10px;
-  border-radius: 35px;
-  outline: 1px solid #585b70;
-}
-#input:focus {
-  border-color: #a6e3a1; /* Accent */
-}
-#input placeholder {
-  color: #6c7086; /* Overlay0 */
-}
-#scroll {
-  margin: 0 8px 8px 8px;
-}
-#inner-box {
-  background-color: transparent;
-}
 #outer-box {
   padding: 4px;
   background-color: #1e1e2e;
   padding: 10px;
   border: 2px solid #a6e3a1;
+  padding: 10px;
+}
+
+#input image {
+  color: #a6e3a1;
+  -gtk-icon-effect: none;
+}
+#input {
+  background-color: #313244;
+  color: #cdd6f4;/* Text */
+  caret-color: #a6e3a1;
+  border: 1px solid #45475a;
+  outline: 1px solid #585b70;
+  padding: 8px 12px;
+  margin: 10px;
+  border-radius: 35px;
+}
+#input:focus {
+  border-color: #a6e3a1;
+}
+#input placeholder {
+  color: #1e1e2e;
 }
 #entry {
   background-color: #1e1e2e;
@@ -64,13 +68,20 @@ scrollbar slider{
   color: #a6e3a1;
 }
 #entry:hover {
-  background-color: #45475a; /* Surface1 */
+  background-color: #45475a;
 }
 #text {
-  color: #cdd6f4; /* Text */
+  color: #cdd6f4;
 }
 #text:selected {
-  color: #a6e3a1; /* Accent */
+  color: #a6e3a1;
+}
+window {
+  background-color: #1e1e2e;
+  border: 2px solid #a6e3a1;
+}
+#inner-box {
+  background-color: transparent;
 }
 #img {
   margin-right: 8px;

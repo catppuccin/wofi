@@ -29,24 +29,24 @@ scrollbar slider{
 }
 
 #input image {
-  color: #85c1dc; /* Accent */
+  color: #85c1dc;
   -gtk-icon-effect: none;
 }
 #input {
-  background-color: #414559; /* Surface0 */
-  color: #c6d0f5;        /* typed text */
+  background-color: #414559;
+  color: #c6d0f5;
   caret-color: #85c1dc;
-  border: 1px solid #51576d; /* Surface1 */
+  border: 1px solid #51576d;
   padding: 8px 12px;
   margin: 10px;
   border-radius: 35px;
   outline: 1px solid #626880;
 }
 #input:focus {
-  border-color: #85c1dc; /* Accent */
+  border-color: #85c1dc;
 }
 #input placeholder {
-  color: #303446; /* Overlay0 */
+  color: #303446;
 }
 #entry {
   background-color: #303446;
@@ -61,13 +61,11 @@ scrollbar slider{
   color: #85c1dc;
 }
 #entry:hover {
-  background-color: #51576d; /* Surface1 */
+  background-color: #51576d;
 }
 #text {
-  color: #c6d0f5 ; /* Text */
+  color: #c6d0f5 ;
 }
 #text:selected {
-  color: #85c1dc; /* Accent */
+  color: #85c1dc;
 }
-
-

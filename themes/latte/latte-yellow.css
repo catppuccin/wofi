@@ -29,24 +29,24 @@ scrollbar slider{
 }
 
 #input image {
-  color: #df8e1d; /* Accent */
+  color: #df8e1d;
   -gtk-icon-effect: none;
 }
 #input {
-  background-color: #ccd0da; /* Surface0 */
-  color: #4c4f69;        /* typed text */
+  background-color: #ccd0da;
+  color: #4c4f69;
   caret-color: #df8e1d;
-  border: 1px solid #bcc0cc; /* Surface1 */
+  border: 1px solid #bcc0cc;
   padding: 8px 12px;
   margin: 10px;
   border-radius: 35px;
   outline: 1px solid #acb0be;
 }
 #input:focus {
-  border-color: #df8e1d; /* Accent */
+  border-color: #df8e1d;
 }
 #input placeholder {
-  color: #eff1f5; /* Overlay0 */
+  color: #eff1f5;
 }
 #entry {
   background-color: #eff1f5;
@@ -61,13 +61,11 @@ scrollbar slider{
   color: #df8e1d;
 }
 #entry:hover {
-  background-color: #bcc0cc; /* Surface1 */
+  background-color: #bcc0cc;
 }
 #text {
-  color: #4c4f69 ; /* Text */
+  color: #4c4f69 ;
 }
 #text:selected {
-  color: #df8e1d; /* Accent */
+  color: #df8e1d;
 }
-
-

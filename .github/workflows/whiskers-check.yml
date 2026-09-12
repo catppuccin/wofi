@@ -8,8 +8,13 @@ on:
     branches: [main]
 
 jobs:
+  run_non_color_overrides:
+    uses: catppuccin/actions/.github/workflows/whiskers-check.yml@v1
+    with:
+      args: templates/non_color_overrides.tera
+    secrets: inherit
   run:
     uses: catppuccin/actions/.github/workflows/whiskers-check.yml@v1
     with:
-      args: wofi.tera
+      args: templates/wofi.tera
     secrets: inherit
